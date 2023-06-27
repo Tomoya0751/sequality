@@ -5,8 +5,8 @@ public class Calculate {
         return x + y;
     }
 
-    public double average(int sum, int num){
-        return (double)sum / num;
+    public double average(int sum){
+        return (double)sum / 2;
     }
 
     public int sumOfRange(int start, int end){
@@ -15,6 +15,11 @@ public class Calculate {
             total += i;
         }
         return total;
+    }
+
+    public double averageOfRange(int sum, int n1, int n2){
+        int num = n2 - n1 + 1;
+        return (double)sum / num;
     }
 
     public int sumOfOdd(int start, int end){
