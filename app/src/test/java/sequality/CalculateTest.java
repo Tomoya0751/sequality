@@ -7,7 +7,7 @@ public class CalculateTest {
     @Test
     public void testSum(){
         Calculate calculate = new Calculate();
-        int expected = 5;
+        int expected = 6;
         assertEquals(expected, calculate.sum(2, 3));
     }
     @Test
