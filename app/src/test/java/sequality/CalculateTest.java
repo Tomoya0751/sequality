@@ -37,8 +37,8 @@ public class CalculateTest {
     @Test
     public void testSumOfEven(){
         Calculate calculate = new Calculate();
-        int expected = 2;
-        assertEquals(expected, calculate.sumOfEven(2, 2));
+        int expected = 30;
+        assertEquals(expected, calculate.sumOfEven(1, 10));
     }
 
 }
